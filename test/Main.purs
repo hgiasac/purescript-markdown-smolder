@@ -24,7 +24,7 @@ compileMd = compileMd' defaultToMarkupOptions
 
 
 parseEitherMd :: String -> String
-parseEitherMd input = either identity show $ parseMd input :: Either String (SlamDownP String)
+parseEitherMd input = either identity show (parseMd input :: Either String (SlamDownP String))
 
 
 main :: Effect Unit

@@ -20,7 +20,6 @@ import Text.Smolder.HTML as HTML
 import Text.Smolder.HTML.Attributes as HA
 import Text.Smolder.Markup (Markup, attribute, text, (!))
 import Text.Smolder.Markup as SM
-import Type.Data.Boolean (kind Boolean)
 
 toHeaderElement :: forall a e. Int -> List (Inline a) -> ToReaderMarkup e
 toHeaderElement level is = do

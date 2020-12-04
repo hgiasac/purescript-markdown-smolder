@@ -23,11 +23,14 @@
   ],
   "homepage": "https://github.com/hgiasac/purescript-markdown-smolder",
   "dependencies": {
-    "purescript-markdown": "^12.0.0",
-    "purescript-smolder": "^11.0.1",
-    "purescript-ordered-collections": "^1.4.0"
+    "purescript-markdown": "poorscript/purescript-markdown#b51ee0e4aa04c9e6a5a70f2552a400c3f9cad439",
+    "purescript-smolder": "^12.3.0",
+    "purescript-ordered-collections": "1.6.1",
+    "purescript-prelude": "^4.1.1",
+    "purescript-record": "^2.0.2",
+    "purescript-typelevel-prelude": "^5.0.2"
   },
   "devDependencies": {
-    "purescript-test-unit": "^14.0.0"
+    "purescript-test-unit": "^15.0.0"
   }
 }
