@@ -2,8 +2,9 @@ language: node_js
 dist: trusty
 sudo: required
 node_js:
-  - "8"
+  - "lts/*"
 install:
   - npm install
+  - npm run install-packages
 script:
   npm test
